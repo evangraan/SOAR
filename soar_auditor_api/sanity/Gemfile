@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+
+gem 'byebug'
+#gem 'soar_auditor_api', :path => '/home/barney/git/soar_auditor_api'
+gem 'soar_auditor_api', "~> 0.0.12"

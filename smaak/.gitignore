@@ -1,0 +1,8 @@
+coverage
+Gemfile.lock
+*swp
+*gem
+backup
+doc
+prototype
+.byebug_history

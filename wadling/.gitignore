@@ -1,0 +1,7 @@
+coverage
+Gemfile.lock
+*swp
+*gem
+backup
+doc
+prototype

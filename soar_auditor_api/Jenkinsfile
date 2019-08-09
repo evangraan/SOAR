@@ -1,0 +1,4 @@
+node ('master') {
+    git 'git@github.com:hetznerZA/soar_auditor_api.git'
+    sh 'docker run --rm -t -v $(pwd):/testing -w /testing soar_sc:ci /bin/bash --login /testing/run_tests.sh'
+}

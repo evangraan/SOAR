@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+
+gem 'soar_auditing_provider', :path => "../"
+gem "log4r_auditor", "~> 1.1.0"
+gem "logstash_auditor", "~> 1.1.0"
+gem "soar_flow", "~> 0.1.1"
+gem 'configuration_service-provider-vault', '~> 3.3', '>= 3.3.1'
